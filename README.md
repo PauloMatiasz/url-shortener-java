@@ -12,8 +12,7 @@ Uma API REST para encurtamento de URLs desenvolvida em Java, com foco em desempe
 ☕ Java
 🌱 Spring Boot
 🍃 MongoDB
-📄 Swagger (documentação da API)
-🐳 Docker (opcional)
+🐳 Docker 
 📂 Estrutura do projeto
 src/
  ├── application/       # Regras de negócio
@@ -54,23 +53,29 @@ GET /{code}
 
 👉 Redireciona para a URL original
 
-📊 Documentação da API
-
-Disponível via Swagger:
-
-http://localhost:8080/swagger-ui.html
 🧠 Conceitos aplicados
 Clean Architecture
+
 Separação de responsabilidades
+
 API RESTful
+
 Boas práticas com Spring Boot
+
 Integração com banco NoSQL
+
 🔥 Possíveis melhorias
+
 🔐 Autenticação com JWT
+
 📈 Dashboard de métricas
+
 🌍 Deploy em nuvem (AWS, Azure, etc.)
+
 ⚡ Cache com Redis
+
 📊 Rate limiting
+
 🤝 Contribuição
 
 👨‍💻 Autor
